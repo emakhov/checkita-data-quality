@@ -29,6 +29,7 @@ project/plugins/project/
 # build directories
 /target
 /checkita-core/target
+/checkita-api/target
 /project/target
 /project/project
 

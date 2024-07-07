@@ -1,0 +1,67 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ScalaTests in 'scala'" type="ScalaTestRunConfiguration" factoryName="ScalaTest" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <module name="checkita-data-quality.checkita-core" />
+    <option name="VMParameters" value="" />
+    <option name="allowRunningInParallel" value="false" />
+    <option name="alternativeJrePath" />
+    <option name="alternativeJrePathEnabled" value="false" />
+    <option name="classpathModifications">
+      <list />
+    </option>
+    <option name="envs">
+      <map />
+    </option>
+    <option name="passParentEnvs" value="true" />
+    <option name="programParameters" value="" />
+    <option name="projectPathOnTarget" />
+    <option name="selectedOptions">
+      <list />
+    </option>
+    <option name="testKind" value="All in package" />
+    <option name="workingDirectory" value="$PROJECT_DIR$" />
+    <option name="classBuf">
+      <list>
+        <option value="ru.raiffeisen.checkita.readers.SchemaReadersSpec" />
+        <option value="ru.raiffeisen.checkita.readers.SourceReadersSpec" />
+        <option value="ru.raiffeisen.checkita.readers.VirtualSourceReader" />
+        <option value="ru.raiffeisen.checkita.utils.FormulaParserSpec" />
+        <option value="ru.raiffeisen.checkita.context.DQContextSpec" />
+        <option value="ru.raiffeisen.checkita.config.IOSpec" />
+        <option value="ru.raiffeisen.checkita.config.ParsersSpec" />
+        <option value="ru.raiffeisen.checkita.config.jobconf.MetricsSpec" />
+        <option value="ru.raiffeisen.checkita.core.streaming.CheckpointIOSpec" />
+        <option value="ru.raiffeisen.checkita.core.serialization.SerializersSpec" />
+        <option value="ru.raiffeisen.checkita.core.checks.trend.AverageBoundFullCheckCalculatorSpec" />
+        <option value="ru.raiffeisen.checkita.core.checks.trend.AverageBoundLowerCheckCalculatorSpec" />
+        <option value="ru.raiffeisen.checkita.core.checks.trend.AverageBoundRangeCheckCalculatorSpec" />
+        <option value="ru.raiffeisen.checkita.core.checks.trend.AverageBoundUpperCheckCalculatorSpec" />
+        <option value="ru.raiffeisen.checkita.core.checks.snapshot.EqualToCheckCalculatorSpec" />
+        <option value="ru.raiffeisen.checkita.core.checks.snapshot.LessThanCheckCalculatorSpec" />
+        <option value="ru.raiffeisen.checkita.core.checks.snapshot.DifferByLTCheckCalculatorSpec" />
+        <option value="ru.raiffeisen.checkita.core.checks.snapshot.GreaterThanCheckCalculatorSpec" />
+        <option value="ru.raiffeisen.checkita.core.checks.load.MinColNumLoadCheckCalculatorSpec" />
+        <option value="ru.raiffeisen.checkita.core.checks.load.ExactColNumLoadCheckCalculatorSpec" />
+        <option value="ru.raiffeisen.checkita.core.checks.load.SchemaMatchLoadCheckCalculatorSpec" />
+        <option value="ru.raiffeisen.checkita.core.checks.load.ColumnsExistsLoadCheckCalculatorSpec" />
+        <option value="ru.raiffeisen.checkita.core.metrics.CastingSpec" />
+        <option value="ru.raiffeisen.checkita.core.metrics.composed.ComposedMetricCalculatorSpec" />
+        <option value="ru.raiffeisen.checkita.core.metrics.df.regular.FileDFMetricsSpec" />
+        <option value="ru.raiffeisen.checkita.core.metrics.df.regular.GroupingDFMetricsSpec" />
+        <option value="ru.raiffeisen.checkita.core.metrics.df.regular.BasicStringDFMetricsSpec" />
+        <option value="ru.raiffeisen.checkita.core.metrics.df.regular.MultiColumnDFMetricsSpec" />
+        <option value="ru.raiffeisen.checkita.core.metrics.df.regular.BasicNumericDFMetricsSpec" />
+        <option value="ru.raiffeisen.checkita.core.metrics.df.regular.ApproxCardinalityDFMetricsSpec" />
+        <option value="ru.raiffeisen.checkita.core.metrics.rdd.regular.FileRDDMetricsSpec" />
+        <option value="ru.raiffeisen.checkita.core.metrics.rdd.regular.AlgebirdRDDMetricsSpec" />
+        <option value="ru.raiffeisen.checkita.core.metrics.rdd.regular.BasicStringRDDMetricsSpec" />
+        <option value="ru.raiffeisen.checkita.core.metrics.rdd.regular.MultiColumnRDDMetricsSpec" />
+        <option value="ru.raiffeisen.checkita.core.metrics.rdd.regular.BasicNumericRDDMetricsSpec" />
+      </list>
+    </option>
+    <option name="shortenClasspath" value="NONE" />
+    <option name="workingDirectory" value="$PROJECT_DIR$" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

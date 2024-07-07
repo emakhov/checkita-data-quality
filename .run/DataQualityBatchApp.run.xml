@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="DataQualityBatchApp" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="ru.raiffeisen.checkita.apps.batch.DataQualityBatchApp" />
+    <module name="checkita-data-quality.checkita-core" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="ru.raiffeisen.checkita.apps.batch.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
